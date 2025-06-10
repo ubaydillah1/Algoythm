@@ -47,3 +47,15 @@ function fibonacci3(n) {
 console.log(fibonacci3(7));
 
 // Big - O = O(n)
+
+
+// =======================================================
+// Rekursive solution
+function fibonacciWithRecursion(n) {
+  let i = 0;
+  let number = 0;
+
+  if (i == n) return number;
+
+  return fibonacciWithRecursion(n) +fibonacciWithRecursion(n + n);
+}

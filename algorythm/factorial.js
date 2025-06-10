@@ -11,7 +11,7 @@ console.log(faktorial(5));
 
 // codeevolution version
 function factorial(n) {
-  let result = 1;
+  let result = 1; 
 
   for (let i = 2; i <= n; i++) {
     result = result * i;
@@ -21,3 +21,5 @@ function factorial(n) {
 }
 
 console.log(factorial(2));
+
+
