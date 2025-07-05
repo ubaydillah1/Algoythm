@@ -19,3 +19,4 @@ console.log(isPrimeNumber2(5));
 console.log(isPrimeNumber2(4));
 console.log(isPrimeNumber2(16));
 console.log(isPrimeNumber2(23));
+// Big - O = O(sqrt(n))

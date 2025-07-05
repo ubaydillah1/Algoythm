@@ -1,4 +1,5 @@
 // Me
+// Time Complexity = O(n)
 function isPowerOfTwo1(n) {
   if (n < 0) return false;
   for (let i = 0; i <= n / 2; i++) {
@@ -29,3 +30,4 @@ function isPowerOfTwo2(n) {
 
 console.log(isPowerOfTwo2(2));
 console.log(isPowerOfTwo2(43));
+// O(log n)

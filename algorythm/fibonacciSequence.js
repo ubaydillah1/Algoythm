@@ -44,6 +44,6 @@ function fibonacci3(n) {
   return fib;
 }
 
-console.log(fibonacci3(7));
+console.log(fibonacci3(3));
 
 // Big - O = O(n)
