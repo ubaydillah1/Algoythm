@@ -28,6 +28,14 @@ function isPowerOfTwo2(n) {
   return true;
 }
 
+// Big - O = O(log n) top
+
+// Big - O = O(1)
+function isPowerOfTwoBitwise(n) {
+  if (n < 1) return false;
+
+  return (n & (n - 1)) === 0;
+}
+
 console.log(isPowerOfTwo2(2));
 console.log(isPowerOfTwo2(43));
-// O(log n)
