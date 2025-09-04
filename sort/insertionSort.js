@@ -1,4 +1,4 @@
-function insertionSortMe(arr) {
+function insertionSort(arr) {
   for (let i = 1; i < arr.length; i++) {
     let NTI = arr[i];
     let j = i - 1;
@@ -16,4 +16,4 @@ function insertionSortMe(arr) {
 
 const arr = [8, 20, -1, -5, 30];
 
-console.log(insertionSortMe(arr));
+console.log(insertionSort(arr));
